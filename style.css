@@ -69,7 +69,7 @@ article.faqs {
   width: min(100% - 3rem, 37rem);
   margin-inline: auto;
   border-radius: 1rem;
-  padding: 1.3rem;
+  padding: 1.4rem;
   box-shadow: 0 0 40px hsla(292, 42%, 14%, 0.126);
 }
 
@@ -93,7 +93,7 @@ article.faqs {
 .articles {
   flex-direction: column;
   gap: 1.5rem;
-  margin-top: 1.8rem;
+  margin-top: 1.9rem;
 }
 
 .articles .article .question p {
