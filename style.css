@@ -29,7 +29,7 @@
 }
 
 @font-face {
-  font-family: 'WorkSans-Thin';
+  font-family: 'WorkSans-Regular';
   src: url('/assets/fonts/static/WorkSans-Regular.ttf') format('truetype');
   font-weight: 400;
   font-style: normal;
@@ -70,7 +70,7 @@ article.faqs {
   margin-inline: auto;
   border-radius: 1rem;
   padding: 1.3rem;
-  box-shadow: 0 30px 40px hsla(292, 42%, 14%, 0.126);
+  box-shadow: 0 0 40px hsla(292, 42%, 14%, 0.126);
 }
 
 .faqs h1,
@@ -93,7 +93,7 @@ article.faqs {
 .articles {
   flex-direction: column;
   gap: 1.5rem;
-  margin-top: 1.5rem;
+  margin-top: 1.8rem;
 }
 
 .articles .article .question p {
@@ -117,10 +117,8 @@ article.faqs {
 }
 
 .articles .article p.answer {
-  font-family: var(--ff-reg);
   color: var(--clr-300);
-  font-size: clamp(0.85rem, 0.7796rem + 0.3005vw, 1.05rem);
-  letter-spacing: 0.5px;
+  font-size: clamp(0.85rem, 0.7972rem + 0.2254vw, 1rem);
   line-height: 1.5;
   width: 100%;
   height: 0;
@@ -134,7 +132,7 @@ article.faqs {
 
 footer {
   position: absolute;
-  bottom: 1rem;
+  bottom: 0.2rem;
   font-family: var(--ff-reg);
   font-size: clamp(0.8rem, 0.7472rem + 0.2254vw, 0.95rem);
   color: var(--clr-400);
